@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl" >
+<head>
+  <title>arjen.vg - {{ page.title }}</title>
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+  <meta name="keywords" content="het begin, zijn naam, foto's, smsjes, aankondiging, gastenboek" />
+  <link rel='stylesheet' type='text/css' href="css/site.css" />
+</head>
+
+<body class="{% if page.body_class %}{{ page.body_class }}{% endif %}">
+  <a href="/"><img class="logo" src="images/logo.gif"></a>
+
+  <ul class="navigation">
+    <li><a href="begin.html" 		title="het begin"><div class="link begin"></div></a></li>
+    <li><a href="naam.html"  		title="zijn naam"><div class="link naam"></div></a></li>
+    <li><a href="fotos.html" 		title="foto's"><div class="link fotos"></div></a></li>
+    <li><a href="sms.html"   		title="smsjes"><div class="link sms"></div></a></li>
+    <li><a href="aankondiging.html" title="aankondiging"><div class="link aankondiging"></div></a></li>
+    <li><a href="gastenboek.html"  	title="gastenboek"><div class="link gastenboek"></div></a></li>
+  </ul>
+
+  {{ content }}
+
+</body>
+</html>

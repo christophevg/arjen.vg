@@ -1,0 +1,157 @@
+BODY {
+  font-family: Helvetica;
+  background-color: #fff;
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+}
+
+BODY.content {
+  background-image: url(/images/background-faded.jpg);
+}
+
+A, H1, H2, H3 {
+  color: #b5171f;
+}
+
+H1, H2, H3 {
+  margin: 5px;
+}
+IMG.logo {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  z-index: 20;
+}
+
+DIV.content {
+  margin-top: 35px;
+  margin-left: 25px;
+  width: 925px;
+  padding: 15px;
+}
+
+DIV.content.fotos {
+  background-image: url(/images/strip.gif);
+  height: 490px;
+}
+
+UL.navigation {
+  margin-top: 55px;
+  margin-left: 250px;
+	list-style-type: none; 
+	list-style-image: none;
+}
+
+UL.navigation LI {
+  display: inline-block;
+}
+
+DIV.link {
+  border: 1px solid #b5171f;
+  display: inline-block;
+  background-image:url(/images/links.gif);
+	height: 25px;
+}
+
+DIV.link.begin        { width: 100px; background-position: 0px 152px; }
+DIV.link.naam         { width: 100px; background-position: 0px 128px; }
+DIV.link.fotos        { width:  70px; background-position: 0px 104px; }
+DIV.link.sms          { width:  80px; background-position: 0px  80px; }
+DIV.link.aankondiging { width: 135px; background-position: 0px  56px; }
+DIV.link.gastenboek   { width: 130px; background-position: 0px  32px; }
+
+/* iphone */
+
+DIV#background { 
+  width:375px; 
+  height:779px; 
+  margin:10px auto 0 auto; 
+  background: url(/images/iphone-3g.jpg) left top no-repeat; 
+  overflow:hidden;
+  padding: 0px;
+}
+
+H3#time { 
+  font: normal 12px Helvetica, Arial, sans-serif;
+  font-size: 12px; 
+  text-shadow: 0 1px 0 #fff; 
+  padding-top: 116px;
+  margin-top: 0px;
+  text-align:center;
+  color: black;
+}
+
+DIV#conversation {
+  margin: 35px; 
+  margin-top: 44px; 
+  height:351px;
+  overflow:auto;
+}
+
+TD.message {
+  padding-left: 105px;
+  font: normal 13px Helvetica, Arial, sans-serif;
+}
+
+TD.message DIV {
+  margin: 0px;
+  padding: 0px;
+}
+
+TD.message DIV.top {
+  background-image: url(/images/message-balloon-top.png);
+  background-repeat: no-repeat;
+  height: 10px;
+}
+
+TD.message DIV.body {
+  background-image: url(/images/message-balloon-body.png);
+  background-repeat: no-repeat;
+  padding: 5px;
+  padding-right: 12px;
+}
+
+TD.message DIV.bottom {
+  background-image: url(/images/message-balloon-bottom.png);
+  background-repeat: no-repeat;
+  height: 13px;
+}
+
+TD.reply {
+  padding-left: 5px;
+  font: normal 13px Helvetica, Arial, sans-serif;
+}
+
+TD.reply DIV {
+  margin: 0px;
+  padding: 0px;
+}
+
+TD.reply DIV.top {
+  background-image: url(/images/reply-balloon-top.png);
+  background-repeat: no-repeat;
+  height: 10px;
+}
+
+TD.reply DIV.body {
+  background-image: url(/images/reply-balloon-body.png);
+  background-repeat: no-repeat;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 112px;
+}
+
+TD.reply DIV.bottom {
+  background-image: url(/images/reply-balloon-bottom.png);
+  background-repeat: no-repeat;
+  height: 13px;
+}
+
+/* aankondiging */
+
+TABLE.aankondiging {
+  margin: 50px;
+  width: 800px;
+  font: normal 14px Helvetica, Arial, sans-serif;
+  line-height: 160%;
+}
