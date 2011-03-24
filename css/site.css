@@ -1,12 +1,18 @@
+HTML {
+  overflow-y: scroll;
+}
+
 BODY {
   font-family: Helvetica;
   background-color: #fff;
   background-image: url(/images/background.jpg);
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
 BODY.content {
   background-image: url(/images/background-faded.jpg);
+  background-position: center top;
 }
 
 A, H1, H2, H3 {
@@ -14,20 +20,26 @@ A, H1, H2, H3 {
 }
 
 H1, H2, H3 {
-  margin: 5px;
-}
-IMG.logo {
-  position: absolute;
-  top: 10px;
-  left: 25px;
-  z-index: 20;
+  margin: 5px 5px 5px 0px;
 }
 
-DIV.content {
-  margin-top: 35px;
-  margin-left: 25px;
+DIV.body {
   width: 925px;
-  padding: 15px;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+DIV.header {
+  margin: 0px;
+  border: 0px solid green;
+  height: 110px;
+}
+
+IMG.logo {
+  float: left;
+  margin: 0xp;
+  border: 0px;
+  z-index: 20;
 }
 
 DIV.content.fotos {
@@ -36,13 +48,13 @@ DIV.content.fotos {
 }
 
 UL.navigation {
-  margin-top: 55px;
-  margin-left: 250px;
+  margin-left: 200px;
 	list-style-type: none; 
 	list-style-image: none;
 }
 
 UL.navigation LI {
+  margin-top: 40px;
   display: inline-block;
 }
 
@@ -89,6 +101,7 @@ DIV#conversation {
 }
 
 TD.message {
+  width:305px;
   padding-left: 105px;
   font: normal 13px Helvetica, Arial, sans-serif;
 }
@@ -104,7 +117,7 @@ TD.message DIV.top {
   height: 10px;
 }
 
-TD.message DIV.body {
+TD.message DIV.sms {
   background-image: url(/images/message-balloon-body.png);
   background-repeat: no-repeat;
   padding: 5px;
@@ -133,7 +146,7 @@ TD.reply DIV.top {
   height: 10px;
 }
 
-TD.reply DIV.body {
+TD.reply DIV.sms {
   background-image: url(/images/reply-balloon-body.png);
   background-repeat: no-repeat;
   padding: 5px;
@@ -150,7 +163,7 @@ TD.reply DIV.bottom {
 /* aankondiging */
 
 TABLE.aankondiging {
-  margin: 50px;
+  margin: 75px;
   width: 800px;
   font: normal 14px Helvetica, Arial, sans-serif;
   line-height: 160%;
