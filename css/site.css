@@ -43,7 +43,9 @@ IMG.logo {
 }
 
 DIV.content.fotos {
-  background-image: url(/images/strip.gif);
+  background-image: url(/images/strip.png);
+  background-repeat: no-repeat;
+  background-position: 0px 220px;
   height: 490px;
 }
 
