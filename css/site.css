@@ -40,6 +40,7 @@ IMG.logo {
   margin: 0xp;
   border: 0px;
   z-index: 20;
+  margin-right: 30px;
 }
 
 IMG.picture {
@@ -53,22 +54,14 @@ DIV.content.fotos {
   height: 490px;
 }
 
-UL.navigation {
-  margin-left: 200px;
-	list-style-type: none; 
-	list-style-image: none;
-}
-
-UL.navigation LI {
-  margin-top: 40px;
-  display: inline-block;
-}
-
 DIV.link {
   border: 1px solid #b5171f;
   display: inline-block;
   background-image:url(/images/links.gif);
 	height: 25px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 45px;
 }
 
 DIV.link.begin        { width: 100px; background-position: 0px 152px; }
