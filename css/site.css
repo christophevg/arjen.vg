@@ -40,7 +40,7 @@ IMG.logo {
   margin: 0xp;
   border: 0px;
   z-index: 20;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 IMG.picture {
@@ -64,12 +64,13 @@ DIV.link {
 	margin-top: 45px;
 }
 
-DIV.link.begin        { width: 100px; background-position: 0px 152px; }
-DIV.link.naam         { width: 100px; background-position: 0px 128px; }
-DIV.link.fotos        { width:  70px; background-position: 0px 104px; }
-DIV.link.sms          { width:  80px; background-position: 0px  80px; }
-DIV.link.aankondiging { width: 135px; background-position: 0px  56px; }
-DIV.link.gastenboek   { width: 130px; background-position: 0px  32px; }
+DIV.link.begin        { width:  94px; background-position: -4px 170px; }
+DIV.link.naam         { width:  94px; background-position: -4px 146px; }
+DIV.link.fotos        { width:  64px; background-position: -4px 122px; }
+DIV.link.sms          { width:  74px; background-position: -4px  98px; }
+DIV.link.emails       { width:  64px; background-position: -4px  27px; }
+DIV.link.aankondiging { width: 129px; background-position: -4px  75px; }
+DIV.link.gastenboek   { width: 124px; background-position: -4px  50px; }
 
 /* iphone */
 
@@ -157,6 +158,41 @@ TD.reply DIV.bottom {
   background-image: url(/images/reply-balloon-bottom.png);
   background-repeat: no-repeat;
   height: 13px;
+}
+
+/* email */
+
+DIV#email {
+  width: 747px;
+  height: 547px;
+  margin-left: 90px;
+  background-image: url(/images/email.png);
+}
+
+
+div#emailspacer { /* needed for strange ?bug? not allowing margin-top:100px on DIV#messages */
+  height: 95px;
+}
+
+DIV#messages {
+  margin:0px;
+  margin-left: 50px;
+  width: 657px;
+  height: 397px;
+  overflow: auto;
+  font-size: 10pt;
+}
+
+DIV#messages TH {
+  text-align: right;
+  color: #808080;
+}
+
+DIV#messages HR {
+  color: #dedede;
+  background-color: #dedede;
+  height: 1px;
+  border: 0px;
 }
 
 /* aankondiging */
